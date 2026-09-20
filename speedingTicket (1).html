@@ -1,0 +1,64 @@
+
+<!doctype html>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<title> Speeding Ticket</title>
+		<style>
+	      body {background-color:antiquewhite; font-family:'Times New Roman', Times, serif, Times, serif;
+	                color: midnightblue; text-align: center}
+	      p {font-size:30px}
+          button{font-size:30px}
+       </style>
+      
+      <script>
+          /*
+          declare two variables for speed and birthday and initialize them.
+          */
+  
+           /*
+           the code in this function will return none, small, or big.
+           */
+           function getTicketType(s){
+            return ""
+            
+           }
+
+       </script>
+       </head>
+	</head>
+
+	<body>
+		<h1>Will you get a ticket?????</h1>
+		<br><br> <!--Skips lines-->  
+		<!-- Creating Input Elements -->
+		<p>
+            Speed &nbsp;&nbsp;&nbsp; &nbsp;  &nbsp;&nbsp; Your birthday? <br>
+            <!-- SPEED text box -->
+			<input  style = "font-size:20px" type ="text" id = "speedBox" value = ""  size = "10"
+            onchange = "
+                //you need code here
+            "/>
+
+            &nbsp;&nbsp; &nbsp;  &nbsp; &nbsp;
+            <!-- is it your birthday text box; 
+                If there is a 'yes' here, subtract 5 from speed-->
+            <input  style = "font-size:20px" type ="text" id = "birthdayBox" value = ""  size = "10"
+            onchange = "
+                //you need code here
+            "/>
+            <br><br>
+            <!-- Button will call function to determine what ticket you get.-->
+            <button id = "ticketButton"
+            onclick = " 
+                var ticketType;
+                ticketType = //call to function
+                ticketBox.value = ticketType 
+                "  > Your ticket: </button><br>
+
+			<input style="font-size:30px;text-align: center;" type ="text" id = "ticketBox"
+                size = "20"  value = ""readonly/>
+ 
+		</p>
+</body>
+<html>
